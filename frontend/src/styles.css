@@ -1,0 +1,39 @@
+/* Ensure Primary Buttons are Visible */
+.p-button {
+    background-color: #007bff !important; /* Blue color */
+    color: white !important; /* White text */
+    border: none !important;
+  }
+  
+  .p-button:hover {
+    background-color: #0056b3 !important; /* Darker blue on hover */
+  }
+
+/* Fix Due Date Calendar Input Visibility */
+.p-calendar input {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid #ccc !important;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+/* Fix Close Button in Dialog */
+.p-dialog .p-dialog-header-icon {
+  color: black !important; /* Make the close button black */
+  background-color: white !important; /* Add background */
+  border: 1px solid #ccc !important; /* Add a light border */
+  padding: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-dialog .p-dialog-header-icon:hover {
+  background-color: #f0f0f0 !important; /* Light gray on hover */
+}
+
+  
