@@ -36,4 +36,91 @@
   background-color: #f0f0f0 !important; /* Light gray on hover */
 }
 
-  
+  /* Enhance visibility of sorting icons */
+.p-column-header-content {
+  font-weight: bold; /* Make headers bold */
+  color: #333 !important; /* Darker text for better readability */
+}
+
+/* Make sorting icons larger and darker */
+.p-sortable-column-icon {
+  font-size: 1.2rem !important; /* Increase size */
+  color: #007bff !important; /* Blue color for better visibility */
+}
+
+/* Change hover effect for sortable columns */
+.p-sortable-column:hover {
+  background-color: #f8f9fa !important; /* Light background on hover */
+  cursor: pointer; /* Indicate clickability */
+}
+
+/* Improve DataTable column header style */
+.p-datatable .p-column-header {
+  background-color: #f1f1f1 !important; /* Light gray background */
+  padding: 10px !important;
+  border-bottom: 2px solid #ddd !important; /* Add subtle border */
+}
+
+/* Fix filtering inputs for better visibility */
+.p-column-filter {
+  width: 100% !important;
+  padding: 6px !important;
+  font-size: 1rem !important;
+  color: #333 !important; /* Darker text */
+  border: 1px solid #ccc !important; /* Light border */
+  border-radius: 4px !important;
+}
+
+/* Improve visibility when filtering */
+.p-column-filter-menu-button {
+  background-color: #007bff !important;
+  color: white !important;
+  border-radius: 4px !important;
+  font-size: 1rem !important;
+}
+
+/* Hover effect for better UI feedback */
+.p-column-filter-menu-button:hover {
+  background-color: #0056b3 !important;
+}
+
+/* ✅ Reduce overall table font size for better fit */
+.p-datatable {
+  font-size: 14px !important; /* Adjust font size globally */
+}
+
+/* ✅ Make headers smaller to save space */
+.p-datatable .p-column-header {
+  font-size: 13px !important; /* Reduce header text size */
+  white-space: nowrap !important; /* Prevent wrapping */
+  padding: 6px 8px !important; /* Adjust padding */
+}
+
+/* ✅ Make sorting icons smaller */
+.p-sortable-column-icon {
+  font-size: 1rem !important; /* Adjust sorting icon size */
+  color: #007bff !important;
+}
+
+/* ✅ Reduce the width of each column */
+.p-datatable .p-column {
+  min-width: 90px !important; /* Adjust minimum width for compact display */
+}
+
+/* ✅ Ensure the Actions column fits properly */
+.task-actions {
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ✅ Reduce the size of action buttons */
+.task-actions button {
+  width: 28px !important; /* Smaller width */
+  height: 28px !important; /* Smaller height */
+  font-size: 12px !important; /* Reduce icon size */
+  padding: 4px !important;
+}
+
+

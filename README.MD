@@ -42,8 +42,8 @@ cd task-manager
 Navigate to the backend folder:
 cd backend
 
-Install all backend dependencies, including date handling libraries:
-npm install express mongoose cors dotenv body-parser 
+Install:
+npm install  
 
 Create a .env file inside the backend/ folder:
 touch .env
@@ -61,9 +61,8 @@ npm start
 Open a new terminal and navigate to the frontend folder:
 cd ../frontend
 
-Install all frontend dependencies, including date handling libraries:
-npm install react-router-dom axios primereact primeicons date-fns
-**date-fns → Used in the frontend for date formatting (DD/MM/YYYY)
+Install:
+npm install
 
 Start the frontend:
 npm run dev
