@@ -172,3 +172,10 @@ Below are some screenshots of the Task Manager Web Application:
 👤 8. Author
 Name: SHATLYK GURDOV
 GitHub: https://github.com/shatlykgurdov
+
+Note:
+I understand the security requirements of this technical test and the importance of granting read-only access. However, since I am using a personal GitHub account, read-only granting opting is not available as an option. As a result, I had to provide write access to you.
+
+I apologize for this limitation and appreciate your understanding.
+
+
